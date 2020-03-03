@@ -15,14 +15,20 @@
 
 .stories{
     background-color: #B4B4B4
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 #recentStories{
     flex-direction: column;
     flex-wrap: wrap;
+    
 
 }
 .title{
     text-align: center;
     font-weight: bold;
+}
+.card-title{
+    font-weight: bold;
+    text-align: center;
 }
