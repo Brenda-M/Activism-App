@@ -4,11 +4,13 @@
 }
 
 .jumbotron {
-    background: url("/assets/header.jpg");
+    background: url("../assets/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     margin-bottom: 0;
+    color: white;
+    text-align: center;
 }
 
 .nav-item:hover{
@@ -36,12 +38,7 @@ nav a{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-#recentStories{
-    flex-direction: column;
-    flex-wrap: wrap;
 
-
-}
 .title{
     text-align: center;
     font-weight: bold;
@@ -55,4 +52,5 @@ nav a{
 }
 .card {
   margin-bottom: 20px;
+  
 }
