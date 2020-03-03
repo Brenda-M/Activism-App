@@ -12,8 +12,10 @@
 
 .footer{
     background-color:rgb(33, 37, 41);
-    height: 200px;
     text-align: center;
+}
+.icons{
+    padding-top: 50px;
 }
 
 .stories{
