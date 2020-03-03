@@ -1,10 +1,9 @@
 
-
 $(document).ready(function () {
   const recentsDiv = $("#recentStories");
   for (let i = 0; i < Movements.length; i++) {
     recentsDiv.append(`
-        <div class="card" style="width: 18rem;">
+        <div class="card movement-card">
           <img src="${Movements[i].image}" class="card-img-top" alt="${Movements[i].title}">
           <div class="card-body">
             <h5 class="card-title">${Movements[i].title}</h5>
