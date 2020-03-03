@@ -7,3 +7,12 @@
     background: url("/assets/header.jpg");
     height: 1000px;
 }
+
+.footer{
+    background-color:#151E3D;
+    height: 200px;
+}
+
+.stories{
+    background-color: #B4B4B4
+}
