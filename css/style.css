@@ -5,23 +5,26 @@
 
 .jumbotron {
     background: url("/assets/header.jpg");
-    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
 .footer{
     background-color:rgb(33, 37, 41);
     height: 200px;
+    text-align: center;
 }
 
 .stories{
-    background-color: #B4B4B4
+    background-color: #F5F5F5;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 #recentStories{
     flex-direction: column;
     flex-wrap: wrap;
-    
+
 
 }
 .title{
