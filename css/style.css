@@ -33,8 +33,14 @@
 .title{
     text-align: center;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 .card-title{
     font-weight: bold;
     text-align: center;
+}
+.card {
+  margin-bottom: 20px;
 }

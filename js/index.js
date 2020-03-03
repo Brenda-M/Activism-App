@@ -2,7 +2,7 @@
 const Movements = [
   {
     title: "Power to the period",
-    description: "Collect and donate sanitary products for people experience poverty.",
+    description: "Collect and donate sanitary products for people experiencing poverty.",
     detailedDescription: "",
     image:  "assets/recents1.jpg" 
   },
