@@ -16,3 +16,13 @@
 .stories{
     background-color: #B4B4B4
 }
+
+#recentStories{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
