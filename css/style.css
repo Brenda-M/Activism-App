@@ -1,0 +1,9 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background: url("/assets/header.jpg");
+    height: 1000px;
+}
