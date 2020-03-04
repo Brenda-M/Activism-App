@@ -12,13 +12,12 @@ ul{
     display: inline-block;
     text-align: center;
     background-color: rgb(33, 37, 34);
-    
 }
 .icons{
     text-align: center;
     position: absolute;
     left: 32%;
-    height: 30px;
+    padding-top: 50px;
 }
 .nav-item:hover{
     background: #1b9bff;
