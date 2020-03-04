@@ -9,18 +9,13 @@ var pw = document.getElementById('pw');
 
     localStorage.setItem('registername', registername.value);
     localStorage.setItem('pw', pw.value);
-    alert('Welcome to the movement, you are being redirected to the login page!');
-    redirect() ;
+    alert('Welcome to the movement, your Details have been recorded');
+
   }
-    function redirect() {
-      // location.replace("https://www.w3schools.com");
-      // window.location = "http://www.w3schools.com";
-      // window.location.href = "http://www.w3schools.com";
-      // window.location.assign("http://www.w3schools.com");
-      // window.location.replace("userlogin.html");
-      // alert('ok');
-      window.location.href = 'index.html';
-    }
+
+  function disableproceed() {
+  document.getElementById("next1").disabled = true;
+}
 
 
 
@@ -38,19 +33,13 @@ function check() {
 
     // check if stored data from register-form is equal to data from login form
   if(userName.value == storedName && userPw.value == storedPw) {
-        // alert('Congratulations.You are being redirected to the homepage');
-        function redirect1() {
-          // location.replace("https://www.w3schools.com");
-          // window.location = "http://www.w3schools.com";
-          // window.location.href = "http://www.w3schools.com";
-          // window.location.assign("http://www.w3schools.com");
-          // window.location.replace("index.html");
-           window.location.href = "https://www.tutorialrepublic.com/";
-          // alert('ok');
-        }
-        redirect1();
+    alert('Congratulations.You Have Been Logged In');
 
     }else {
-        alert('Wrong username or password.Kindly countercheck and enter again');
+        alert('Wrong username or password.Kindly countercheck and try again');
+        function disableproceed() {
+        document.getElementById("next1").disabled = true;
+      }
+      disableproceed();
     }
 }
