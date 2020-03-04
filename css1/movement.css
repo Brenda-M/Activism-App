@@ -85,7 +85,8 @@
 
     #movement-description{
         line-height: 2em;
-          font-family: 'Fira Sans Condensed', sans-serif;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        text-indent: 2em
     }
 
     .footer{
