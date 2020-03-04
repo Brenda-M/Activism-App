@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   const recentsDiv = $("#recentStories");
   for (let i = 0; i < Movements.length; i++) {

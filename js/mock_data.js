@@ -22,29 +22,29 @@ const Movements = [
         title: "My mental health",
         description: "On trauma and depression, resilience and strength...",
         detailedDescription:  `Right now it is estimated that up to 12 million metric tons of plastic—everything
-        from plastic bottles and bags to microbeads—end up in our oceans each year. That’s a truckload of trash every minute.
-        Traveling on ocean currents, this plastic is now turning up in every corner of our planet, from Florida beaches to 
-        uninhabited Pacific islands.It is even being found in the deepest part of the ocean and trapped in Arctic ice.
-        Our oceans are slowly turning into a plastic soup, and the effects on ocean life are devastating.Plastic pieces of all 
-        sizes choke and clog the stomachs of creatures who mistake it for food, from tiny zooplankton to whales.
-        Plastic is now entering every level of the ocean food chain and is even ending up in the seafood on our plates.
-        But it doesn’t have to be this way.That’s why we are campaigning to end the flow of single- use plastic into our oceans.
-        We are calling on big corporations to act to reduce their plastic footprint—and stop producing plastic packaging that is 
-        designed to be used for just a few minutes before it ends up in landfills, incinerators and out polluting our environment for a lifetime.
-        We’re also working hard to address other serious threats facing our oceans.Unsustainable industrial fishing is destroying habitats and 
-        endangering countless species.Climate change and ocean acidification—both the result of our reliance on fossil fuels—are having more and 
-        more extreme impacts on ocean health.Today, overfishing and bycatch kills about 63 billion pounds of marine animals every year, and human 
-        activity is disrupting the balance of marine ecosystems across the globe.The impacts on humans are equally severe.Overfishing compromises 
-        food security and the livelihoods of fishing communities.Human trafficking and forced labor remain huge problems on many fishing fleets.
-        We’re also working to protect the oceans through a network of sanctuaries.Globally, less than 2 percent of the ocean is under protection.
-        We’re campaigning to establish ocean sanctuaries in 30 percent of the world’s oceans by 2030.These sanctuaries will preserve biodiversity, 
-        help endangered species recover, and give marine life a fighting chance to survive the rapid changes we are causing to the planet.
-        Ocean sanctuaries can also help replenish fish populations decimated by overfishing, meaning a more dependable food supply for the billions
-        of people who get some of their protein from seafood.Scientists say the wave of extinction facing the ocean in the coming century could be the worst 
-        since the dinosaur age.If we don’t change the way we do things, and fast, we are on track to cause irreversible damage to the ocean and the collapse of 
-        some of the most important food sources in the world.Fortunately, if we work together we are within reach of a world that respects our oceans, their 
-        inhabitants and the people who depend on them.We want a better future for our oceans and the people that depend on them.You do, too ? Awesome! Check out 
-        the resources below to learn more about our campaign to protect the oceans and ways you can get involved!`,
+            from plastic bottles and bags to microbeads—end up in our oceans each year. That’s a truckload of trash every minute.
+            Traveling on ocean currents, this plastic is now turning up in every corner of our planet, from Florida beaches to 
+            uninhabited Pacific islands.It is even being found in the deepest part of the ocean and trapped in Arctic ice.
+            Our oceans are slowly turning into a plastic soup, and the effects on ocean life are devastating.Plastic pieces of all 
+            sizes choke and clog the stomachs of creatures who mistake it for food, from tiny zooplankton to whales.
+            Plastic is now entering every level of the ocean food chain and is even ending up in the seafood on our plates.
+            But it doesn’t have to be this way.That’s why we are campaigning to end the flow of single- use plastic into our oceans.
+            We are calling on big corporations to act to reduce their plastic footprint—and stop producing plastic packaging that is 
+            designed to be used for just a few minutes before it ends up in landfills, incinerators and out polluting our environment for a lifetime.
+            We’re also working hard to address other serious threats facing our oceans.Unsustainable industrial fishing is destroying habitats and 
+            endangering countless species.Climate change and ocean acidification—both the result of our reliance on fossil fuels—are having more and 
+            more extreme impacts on ocean health.Today, overfishing and bycatch kills about 63 billion pounds of marine animals every year, and human 
+            activity is disrupting the balance of marine ecosystems across the globe.The impacts on humans are equally severe.Overfishing compromises 
+            food security and the livelihoods of fishing communities.Human trafficking and forced labor remain huge problems on many fishing fleets.
+            We’re also working to protect the oceans through a network of sanctuaries.Globally, less than 2 percent of the ocean is under protection.
+            We’re campaigning to establish ocean sanctuaries in 30 percent of the world’s oceans by 2030.These sanctuaries will preserve biodiversity, 
+            help endangered species recover, and give marine life a fighting chance to survive the rapid changes we are causing to the planet.
+            Ocean sanctuaries can also help replenish fish populations decimated by overfishing, meaning a more dependable food supply for the billions
+            of people who get some of their protein from seafood.Scientists say the wave of extinction facing the ocean in the coming century could be the worst 
+            since the dinosaur age.If we don’t change the way we do things, and fast, we are on track to cause irreversible damage to the ocean and the collapse of 
+            some of the most important food sources in the world.Fortunately, if we work together we are within reach of a world that respects our oceans, their 
+            inhabitants and the people who depend on them.We want a better future for our oceans and the people that depend on them.You do, too ? Awesome! Check out 
+            the resources below to learn more about our campaign to protect the oceans and ways you can get involved!`,
         image: "assets/recents2.jpeg"
     },
     {
