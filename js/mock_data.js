@@ -3,12 +3,17 @@ const Movements = [
     {
         title: "Power to the period",
         description: "Collect and donate sanitary products for people experiencing poverty.",
-        detailedDescription: "",
+        detailedDescription: `As many as 3.5 million Kenyans who experience 
+        poverty each year have extremely limited access to sanitary products(pads, tampons, etc.).
+        sanitary products are some of the most needed items in low-income homes across the country.
+        Collect unopened packages of sanitary products and donate them to a local supermarket.Together,
+        our efforts help ensure that people from low-income families have consistent access to the supplies they need.`,
         image: "assets/recents1.jpg"
     },
     {
         title: "My mental health",
         description: "On trauma and depression, resilience and strength...",
+        detailedDescription: ""
         image: "assets/recents2.jpeg"
     },
     {
