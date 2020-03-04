@@ -8,7 +8,7 @@ $(document).ready(function () {
           <div class="card-body">
             <h5 class="card-title">${Movements[i].title}</h5>
             <p class="card-text">${Movements[i].description}</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="./move.html?movement=${Movements[i].title}" class="btn btn-primary">Learn More</a>
           </div>
         </div>
     `);
