@@ -9,15 +9,17 @@ var pw = document.getElementById('pw');
 
     localStorage.setItem('registername', registername.value);
     localStorage.setItem('pw', pw.value);
-    alert('Welcome to the movement, you are being redirected to the login page!')
+    alert('Welcome to the movement, you are being redirected to the login page!');
+    redirect() ;
   }
     function redirect() {
       // location.replace("https://www.w3schools.com");
       // window.location = "http://www.w3schools.com";
       // window.location.href = "http://www.w3schools.com";
       // window.location.assign("http://www.w3schools.com");
-      window.location.replace("userlogin.html");
-      alert('ok');
+      // window.location.replace("userlogin.html");
+      // alert('ok');
+      window.location.href = 'index.html';
     }
 
 
@@ -42,11 +44,11 @@ function check() {
           // window.location = "http://www.w3schools.com";
           // window.location.href = "http://www.w3schools.com";
           // window.location.assign("http://www.w3schools.com");
-          window.location.replace("index.html");
-          alert('ok');
+          // window.location.replace("index.html");
+           window.location.href = "https://www.tutorialrepublic.com/";
+          // alert('ok');
         }
         redirect1();
-
 
     }else {
         alert('Wrong username or password.Kindly countercheck and enter again');
