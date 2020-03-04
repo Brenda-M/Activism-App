@@ -1,0 +1,79 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background: url("../assets/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    height: 600px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron-text{
+    margin-top: 150px;
+    font-size: 70px;
+}
+
+.nav-item:hover{
+  background: #1b9bff;
+  transition: .5s;
+  margin-right:4px;
+}
+
+nav a{
+  color: white;
+  font-size: 15px;
+  border-radius:3px;
+}
+
+.footer{
+    background-color:rgb(33, 37, 41);
+    text-align: center;
+}
+.icons{
+    padding-top: 50px;
+}
+
+.stories{
+    background-color: #F5F5F5;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+.card-body{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.movement-card{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 0;
+}
+.movement-card > img{
+    height: 200px;
+}
