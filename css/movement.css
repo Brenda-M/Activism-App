@@ -25,6 +25,11 @@
        border-radius: 3px;
    }
    
+   /* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+
    a.button3{
        display:inline-block;
        padding:0.3em 1.2em;
@@ -134,3 +139,4 @@
 .icons{
     padding-top: 50px;
 }
+
