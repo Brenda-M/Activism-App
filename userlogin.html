@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="css/userlogin_signup.css">
-  </head>
-  <body>
-    <div class="login-page">
-      <div class="form">
-        <form id="login-form">
-          <input id="userName" type="text" placeholder="Enter your Username" value=""/>
-          <input id="userPw" type="password" placeholder="Enter your Password" value=""/>
-          <button id="login_btn" type="submit" value="Login" onClick="check()"/>Login</button>
-        </form>
-        <br><br><br>
-        <button id="next1" type="submit" value="NEXT" onClick="onClick=location.href='index.html'">PROCEED</button>
-      </div>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="css/userlogin_signup.css">
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      <input id="userName" type="text" placeholder="Enter your Username" value="" />
+      <input id="userPw" type="password" placeholder="Enter your Password" value="" />
+      <button id="login_btn" value="Login" onClick="loginUser()" />Login</button>
     </div>
-    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" language="javascript" src="js/userlogin_signup.js"></script>
-  </body>
+  </div>
+</body>
+
+  <script type="text/javascript" src="./js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" language="javascript" src="./js/userlogin_signup.js"></script>
 </html>
