@@ -35,15 +35,16 @@ nav a{
     background-color:rgb(33, 37, 41);
     text-align: center;
 }
+
 .icons{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .stories{
     background-color: #F5F5F5;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
-
 
 .title{
     text-align: center;
@@ -68,12 +69,14 @@ nav a{
     width: 100%;
     justify-content: center;
 }
+
 .movement-card{
     width: 30%;
     margin-bottom: 30px;
     margin-right: 20px;
     padding: 0;
 }
+
 .movement-card > img{
     height: 200px;
 }
