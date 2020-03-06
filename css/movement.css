@@ -137,11 +137,6 @@ hr {
     padding-bottom: 20px;
 }
 
-/* #movement-title{
-    font-weight:bold;
-    padding: 30px;
-} */
-
 #movement-image{
     padding-bottom: 20px;
 }
@@ -205,8 +200,7 @@ a {
     padding-left: 15px;
     position: absolute;
     right: 16px;
-    top: 7px;    
-    -webkit-transition: all 600ms 200ms;
+    top: 7px;   
     transition: all 600ms 200ms;
   }
   
@@ -224,14 +218,30 @@ a {
 .type-s
  {
    display: inline-block;
-   width: 28%;
-   padding: 40px 10px;
-   margin:20%
-   text-align: center;
-   box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
-   background: rgb(148, 242, 230);
+   font-size: 30px;
+   color: white ;
+   font-weight: bold;
  }
  
-h6{
+.h6{
     font-weight: bold;
+    font-size: 15px;
+    color: black;
 }
+
+.comments{
+    background-color:rgb(33, 37, 41);
+}
+
+#submit, .textfield{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.petitions-form{
+    background-image: url("../assets/petitionsimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+

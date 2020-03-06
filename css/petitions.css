@@ -1,3 +1,67 @@
-.container{
-    background-color: cadetblue;
+.navbar {
+  margin-bottom: 30px;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+#petitions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.petition-card {
+  width: 30%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+.card-body{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.petition-card>img {
+  height: 200px;
+}
+
+.petition-form {
+  max-width: 470px;
+}
+
+#description {
+  height: 200px;
+  resize: none;
+}
+
+.footer{
+    background-color:rgb(33, 37, 41);
+    text-align: center;
+    color: white;
+}
+
+.icons{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.stories{
+    background-color: #F5F5F5;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }

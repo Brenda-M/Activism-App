@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/petitions.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
-  <title>Petitions</title>
+  <title>Petition Details</title>
 </head>
 
-<body class="text-center">
+<body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Be the Change</a>
@@ -43,25 +42,33 @@
   </nav>
 
   <div class="container">
-    <h2 class="title">Petitions</h2>
-    <br/>
-    
-    <div id="petitions-container" class="stories"></div>
-  </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 id="petition-title"></h3>
 
-    <div class="footer">
-      <div class="icons" id="contacts">
-        <img src="assets/skype.png" alt="twitter">
-        <img src="assets/facebook.png" alt="facebook">
-        <img src="assets/g_plus.png" alt="g-plus">
-        <img src="assets/skype.png" alt="skype">
-        <img src="assets/pinterest.png" alt="pintrest">
-        <img src="assets/you_tube.png" alt="Youtube">
+        <div id="petition-image"></div>
+
+        <div id="petition-category"></div>
+        <div id="petition-contact"></div>
+        <div id="petition-description"></div>
       </div>
+
+      <div class="col-md-3">
+        <button class="btn btn-secondary">Sign Petition</button>
+
+        <br />
+        <br />
+
+        <input class="form-control" type="number" value="0" min="0" placeholder="Enter amount" />
+        <br />
+        <button class="btn btn-success">Donate</button>
+      </div>
+    </div>
+  </div>
 </body>
 
 <script src="js/jquery-3.4.1.js"></script>
 <script src="js/mock-petitions.js"></script>
-<script src="js/petitions.js"></script>
+<script src="js/petition-details.js"></script>
 
 </html>

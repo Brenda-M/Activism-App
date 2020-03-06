@@ -34,6 +34,7 @@ nav a{
 .footer{
     background-color:rgb(33, 37, 41);
     text-align: center;
+    color: white;
 }
 
 .icons{
@@ -81,6 +82,44 @@ nav a{
     height: 200px;
 }
 
-.h7{
+.socialize{
     color: white;
+    margin-top: 40px;
 }
+
+.donate {
+  background: #00684d;
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+  &:after {
+    border-left: 1px solid darken(#00684d, 5%);
+    color: darken(#00684d, 10%);
+    content: "\f004";
+    font: 20px "FontAwesome";
+    padding: 10px 0;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;    
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+  
+  &:hover {
+    background-position: -100% 0;
+    
+    &:after {
+      border-left: 1px solid lighten(#00684d, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+  }
+}
+  
