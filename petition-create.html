@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="petition-details.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <title>Create Petition</title>
+</head>
+
+<body class="text-center">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Be the Change</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="petition-details.html">Petitions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="usersignup.html">Join Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="userlogin.html">Log in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <img src="images/online.jpg" width="1000px">
+    <h1><b>Start your Petition</b></h1>
+    <h2>Let your voice be heard</h2>
+
+    <div class="petition-form">
+      <div class="form-group">
+        <label for="category">Select category</label>
+        <select id="category" class="form-control" name="category">
+          <option value="Education">Education</option>
+          <option value="Mental Health">Mental Health</option>
+          <option value="Homless and Poverty">Homless and Poverty</option>
+          <option value="Environment">Environment</option>
+          <option value="Bullying">Bullying</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" class="form-control" placeholder="Enter title"/>
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image Link</label>
+        <input type="text" id="image" name="image" class="form-control" placeholder="Enter image link"/>
+      </div>
+
+      <div class="form-group">
+        <label for="contact">Phone/Email</label>
+        <input type="text" id="contact" name="contact" class="form-control" placeholder="Enter contact info"/>
+      </div>
+<!-- 
+      <div class="form-group">
+        <label for="description">Short Description</label>
+        <textarea id="summary" name="description" class="form-control" placeholder="Enter short description"></textarea>
+      </div> -->
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" class="form-control" placeholder="Enter full description"></textarea>
+      </div>
+
+      <div class="form-group"></div>
+        <button class="btn btn-success" onclick="createPetition()">Create Petition</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/petition-create.js"></script>
+
+</html>

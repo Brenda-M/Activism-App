@@ -1,0 +1,14 @@
+.container {
+  background:cadetblue;
+}
+
+footer{
+    background-color:rgb(33, 37, 41);
+    text-align: center;
+    color: white;
+}
+
+.icons{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,125 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background: url("../assets/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    height: 600px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron-text{
+    margin-top: 150px;
+    font-size: 70px;
+}
+
+.nav-item:hover{
+  background: #1b9bff;
+  transition: .5s;
+  margin-right:4px;
+}
+
+nav a{
+  color: white;
+  font-size: 15px;
+  border-radius:3px;
+}
+
+.footer{
+    background-color:rgb(33, 37, 41);
+    text-align: center;
+    color: white;
+}
+
+.icons{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.stories{
+    background-color: #F5F5F5;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+.card-body{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.movement-card{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.movement-card > img{
+    height: 200px;
+}
+
+.socialize{
+    color: white;
+    margin-top: 40px;
+}
+
+.donate {
+  background: #00684d;
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+  &:after {
+    border-left: 1px solid darken(#00684d, 5%);
+    color: darken(#00684d, 10%);
+    content: "\f004";
+    font: 20px "FontAwesome";
+    padding: 10px 0;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;    
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+  
+  &:hover {
+    background-position: -100% 0;
+    
+    &:after {
+      border-left: 1px solid lighten(#00684d, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+  }
+}
+  
