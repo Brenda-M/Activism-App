@@ -39,7 +39,7 @@ const mockPetitions = [
       to close leaving many lonely and underprivileged people hungry, cold, and hopeless wandering the
       streets and ducking into ATMs to combat the severe winter temperatures. `,
     contact: "test@gmail.com",
-    image: "assets/coronapet.jpg"
+    image: "assets/petitionsimage2.jpeg"
   },
   {
     category: "Climate Change",

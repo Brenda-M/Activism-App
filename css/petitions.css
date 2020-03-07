@@ -65,3 +65,22 @@
     background-color: #F5F5F5;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
+.moredetails{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#petition-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+#petition-category{
+  font-weight: bold;
+}
+
+#petition-description{
+    line-height: 2em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-indent: 2em
+}
