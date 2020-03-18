@@ -84,3 +84,22 @@
     font-family: 'Fira Sans Condensed', sans-serif;
     text-indent: 2em
 }
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .card{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .card{
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card{
+    width: 40%;
+  }
+}
