@@ -11,7 +11,7 @@ $(document).ready(function () {
     // Render the petition specific data on the html page
     $("#petition-title").html(petition.title);
     $("#petition-category").html(petition.category);
-    $("#petition-contact").html(petition.contact);
+    $("#petition-author").html(petition.author);
     $("#petition-description").html(petition.description);
     $("#petition-image").html(`
     <img src="${petition.image}" alt="${petition.title}" class="petition-img"/>

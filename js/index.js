@@ -13,3 +13,9 @@ $(document).ready(function () {
     `);
   }
 });
+
+function logoutUser(){
+  localStorage.removeItem('users')
+  alert("You have been logged out")
+  return window.location.href = 'index.html';
+}

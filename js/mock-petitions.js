@@ -18,7 +18,7 @@ const mockPetitions = [
       country).Kenya is not prepared to deal with CORONA VIRUS(COVID - 19) outbreak.Don't let them 
       kill us! Don't sit and wait to watch your loved ones die helplessly for something that we can 
       prevent NOW!SIGN and encourage others to SIGN the PETITION for OUR LIVES! KENYAN LIVES MATTER!`,
-    contact: "joan@gmail.com",
+    author: "joan",
     image: "assets/coronapet.jpg"
   },
   {
@@ -38,7 +38,7 @@ const mockPetitions = [
       renting the hall. With no other suitable locations available, the Family Centre would be forced
       to close leaving many lonely and underprivileged people hungry, cold, and hopeless wandering the
       streets and ducking into ATMs to combat the severe winter temperatures. `,
-    contact: "test@gmail.com",
+    author: "testUser",
     image: "assets/petitionsimage2.jpeg"
   },
   {
@@ -68,7 +68,7 @@ const mockPetitions = [
       government intervention. The Australian Conservation Foundation’s James Trezise told Guardian 
       Australia: “From a conservation standpoint we know what needs to happen, but it seems there isn’t 
       the political will to get us there.”`,
-    contact: "test@gmail.com",
+    author: "Michael",
     image: "assets/petitionsimage3.jpeg"
 
   }

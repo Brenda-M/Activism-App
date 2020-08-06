@@ -1,6 +1,4 @@
-.container {
-  background:cadetblue;
-}
+
 
 footer{
     background-color:rgb(33, 37, 41);
@@ -8,7 +6,40 @@ footer{
     color: white;
 }
 
+body{
+  background-color: aqua;
+}
+
 .icons{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.petition-form{
+  margin-bottom: 30px;
+  font-family: 'Slabo 27px', serif;
+  position: relative;;
+}
+
+
+
+.footer{
+  background-color:rgb(33, 37, 41);
+  text-align: center;
+  color: white;
+}
+
+.icons{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn-success{
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.card{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

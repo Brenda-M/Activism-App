@@ -41,6 +41,10 @@
   height: 200px;
 }
 
+.petition-img{
+  width: 130%;
+}
+
 .petition-form {
   max-width: 470px;
 }
@@ -48,6 +52,10 @@
 #description {
   height: 200px;
   resize: none;
+}
+
+#petition-image{
+  width: 200px;
 }
 
 .footer{

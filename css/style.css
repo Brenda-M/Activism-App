@@ -12,11 +12,13 @@
     margin-bottom: 0;
     color: white;
     text-align: center;
+    font-family: 'Slabo 27px', serif;
+    position: relative;
 }
 
 .jumbotron-text{
     margin-top: 150px;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .nav-item:hover{
@@ -24,6 +26,26 @@
   transition: .5s;
   margin-right:4px;
 }
+
+.jumbotron::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height:100%;
+  background: #333;
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: .7;
+  z-index: 0;
+  mix-blend-mode: hard-light;
+}
+
+.jumbotron > *{
+  z-index: 10;
+  position: relative;
+}
+
 
 nav a{
   color: white;
@@ -44,7 +66,7 @@ nav a{
 
 .stories{
     background-color: #F5F5F5;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
 .title{
@@ -87,18 +109,28 @@ nav a{
     width: 100%;
     margin-right: 0;
   }
+  .jumbotron-text{
+    font-size: 60px;
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .card{
     width: 60%;
   }
+  .jumbotron-text{
+    font-size: 60px;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .card{
     width: 40%;
   }
+
+  .jumbotron-text{
+    font-size: 60px;
+}
 }
 
 .socialize{
